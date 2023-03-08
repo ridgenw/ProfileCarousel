@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04890C85293E4A9D00878F61 /* ProfileAnimation-TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ProfileAnimation-TestApp.app"; path = "/Users/ridgewilliams/Desktop/Developer/ProfileAnimation-TestApp/build/Debug-iphoneos/ProfileAnimation-TestApp.app"; sourceTree = "<absolute>"; };
+		040E46EA29B9076F0013CBE4 /* ProfileAnimation-TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ProfileAnimation-TestApp.app"; path = "/Users/ridgewilliams/Desktop/Developer/ProfileAnimation-TestApp/build/Debug-iphoneos/ProfileAnimation-TestApp.app"; sourceTree = "<absolute>"; };
 		04890C88293E4A9D00878F61 /* @main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@main.swift"; sourceTree = "<group>"; };
 		04890C8A293E4A9D00878F61 /* ViewModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifer.swift; sourceTree = "<group>"; };
 		04890C8C293E4AA000878F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			packageProductDependencies = (
 			);
 			productName = "ProfileAnimation-TestApp";
-			productReference = 04890C85293E4A9D00878F61 /* ProfileAnimation-TestApp.app */;
+			productReference = 040E46EA29B9076F0013CBE4 /* ProfileAnimation-TestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
