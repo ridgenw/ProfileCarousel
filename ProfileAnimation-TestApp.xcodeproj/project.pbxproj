@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04890C89293E4A9D00878F61 /* ProfileAnimation_TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C88293E4A9D00878F61 /* ProfileAnimation_TestAppApp.swift */; };
-		04890C8B293E4A9D00878F61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C8A293E4A9D00878F61 /* ContentView.swift */; };
+		04890C89293E4A9D00878F61 /* @main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C88293E4A9D00878F61 /* @main.swift */; };
+		04890C8B293E4A9D00878F61 /* ViewModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C8A293E4A9D00878F61 /* ViewModifer.swift */; };
 		04890C8D293E4AA000878F61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04890C8C293E4AA000878F61 /* Assets.xcassets */; };
 		04890C90293E4AA000878F61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04890C8F293E4AA000878F61 /* Preview Assets.xcassets */; };
+		04890C97293FD22800878F61 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C96293FD22800878F61 /* Models.swift */; };
+		04890C992941087C00878F61 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C982941087C00878F61 /* ProfileView.swift */; };
+		04890C9D29423F7B00878F61 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C9C29423F7B00878F61 /* CircleView.swift */; };
+		04890C9F294A4A0100878F61 /* SnapToItemScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890C9E294A4A0100878F61 /* SnapToItemScrollView.swift */; };
+		04A9F4C02992B0A1009FE051 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9F4BF2992B0A1009FE051 /* SwiftUIView.swift */; };
+		04AACF2A298F5DF8005EF8D1 /* Funcs, Mods, Exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AACF29298F5DF8005EF8D1 /* Funcs, Mods, Exts.swift */; };
+		04C6811D29805F8200373FED /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6811C29805F8200373FED /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04890C85293E4A9D00878F61 /* ProfileAnimation-TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProfileAnimation-TestApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04890C88293E4A9D00878F61 /* ProfileAnimation_TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAnimation_TestAppApp.swift; sourceTree = "<group>"; };
-		04890C8A293E4A9D00878F61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04890C85293E4A9D00878F61 /* ProfileAnimation-TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "ProfileAnimation-TestApp.app"; path = "/Users/ridgewilliams/Desktop/Developer/ProfileAnimation-TestApp/build/Debug-iphoneos/ProfileAnimation-TestApp.app"; sourceTree = "<absolute>"; };
+		04890C88293E4A9D00878F61 /* @main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@main.swift"; sourceTree = "<group>"; };
+		04890C8A293E4A9D00878F61 /* ViewModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifer.swift; sourceTree = "<group>"; };
 		04890C8C293E4AA000878F61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04890C8F293E4AA000878F61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04890C96293FD22800878F61 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		04890C982941087C00878F61 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		04890C9C29423F7B00878F61 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		04890C9E294A4A0100878F61 /* SnapToItemScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapToItemScrollView.swift; sourceTree = "<group>"; };
+		04A9F4BF2992B0A1009FE051 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		04AACF29298F5DF8005EF8D1 /* Funcs, Mods, Exts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Funcs, Mods, Exts.swift"; sourceTree = "<group>"; };
+		04C6811C29805F8200373FED /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,23 +50,19 @@
 			isa = PBXGroup;
 			children = (
 				04890C87293E4A9D00878F61 /* ProfileAnimation-TestApp */,
-				04890C86293E4A9D00878F61 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		04890C86293E4A9D00878F61 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				04890C85293E4A9D00878F61 /* ProfileAnimation-TestApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		04890C87293E4A9D00878F61 /* ProfileAnimation-TestApp */ = {
 			isa = PBXGroup;
 			children = (
-				04890C88293E4A9D00878F61 /* ProfileAnimation_TestAppApp.swift */,
-				04890C8A293E4A9D00878F61 /* ContentView.swift */,
+				04A9F4BF2992B0A1009FE051 /* SwiftUIView.swift */,
+				04890C88293E4A9D00878F61 /* @main.swift */,
+				04890C8A293E4A9D00878F61 /* ViewModifer.swift */,
+				04890C9C29423F7B00878F61 /* CircleView.swift */,
+				04C6811C29805F8200373FED /* CarouselView.swift */,
+				04890C96293FD22800878F61 /* Models.swift */,
+				04AACF29298F5DF8005EF8D1 /* Funcs, Mods, Exts.swift */,
 				04890C8C293E4AA000878F61 /* Assets.xcassets */,
 				04890C8E293E4AA000878F61 /* Preview Content */,
 			);
@@ -62,6 +72,8 @@
 		04890C8E293E4AA000878F61 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				04890C982941087C00878F61 /* ProfileView.swift */,
+				04890C9E294A4A0100878F61 /* SnapToItemScrollView.swift */,
 				04890C8F293E4AA000878F61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -83,6 +95,8 @@
 			dependencies = (
 			);
 			name = "ProfileAnimation-TestApp";
+			packageProductDependencies = (
+			);
 			productName = "ProfileAnimation-TestApp";
 			productReference = 04890C85293E4A9D00878F61 /* ProfileAnimation-TestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,7 +125,9 @@
 				Base,
 			);
 			mainGroup = 04890C7C293E4A9D00878F61;
-			productRefGroup = 04890C86293E4A9D00878F61 /* Products */;
+			packageReferences = (
+			);
+			productRefGroup = 04890C7C293E4A9D00878F61;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -137,8 +153,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04890C8B293E4A9D00878F61 /* ContentView.swift in Sources */,
-				04890C89293E4A9D00878F61 /* ProfileAnimation_TestAppApp.swift in Sources */,
+				04890C9D29423F7B00878F61 /* CircleView.swift in Sources */,
+				04890C992941087C00878F61 /* ProfileView.swift in Sources */,
+				04A9F4C02992B0A1009FE051 /* SwiftUIView.swift in Sources */,
+				04890C97293FD22800878F61 /* Models.swift in Sources */,
+				04890C8B293E4A9D00878F61 /* ViewModifer.swift in Sources */,
+				04AACF2A298F5DF8005EF8D1 /* Funcs, Mods, Exts.swift in Sources */,
+				04C6811D29805F8200373FED /* CarouselView.swift in Sources */,
+				04890C9F294A4A0100878F61 /* SnapToItemScrollView.swift in Sources */,
+				04890C89293E4A9D00878F61 /* @main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
